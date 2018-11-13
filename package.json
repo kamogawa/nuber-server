@@ -1,0 +1,19 @@
+{
+  "name": "nuber-server",
+  "version": "1.0.0",
+  "description": "Server for the Nuber project",
+  "main": "index.js",
+  "repository": "https://github.com/kamogawa/nuber-server",
+  "author": "Beumgoo Kim <captain_kbg@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.5.0",
+    "nodemon": "^1.17.5",
+    "ts-node": "^7.0.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql"
+  }
+}
