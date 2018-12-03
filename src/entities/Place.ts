@@ -1,4 +1,11 @@
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from "typeorm";
+import { 
+    BaseEntity, 
+    Column, 
+    Entity, 
+    PrimaryGeneratedColumn, 
+    CreateDateColumn, 
+    UpdateDateColumn 
+} from "typeorm";
 
 @Entity()
 class Place extends BaseEntity {
