@@ -1,4 +1,4 @@
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, BeforeInsert } from "typeorm";
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from "typeorm";
 
 @Entity()
 class Place extends BaseEntity {
@@ -11,7 +11,7 @@ class Place extends BaseEntity {
     lat: number;
 
     @Column({ type: "double precision", default: 0 })
-    log: number ;
+    lng: number ;
 
     @Column({ type:"text" })
     address: string;

@@ -1,19 +1,8 @@
-export const typeDefs = ["type Query {\n  sayBye: String!\n  sayHello(name: String!): SayHelloResponse!\n  user: User\n}\n\ntype SayHelloResponse {\n  text: String!\n  error: Boolean!\n}\n\ntype Place {\n  id: Int!\n  name: String!\n  lat: Float!\n  log: Float!\n  address: String!\n  isFav: Boolean!\n  createdAt: String!\n  updatedAt: String!\n}\n\ntype User {\n  id: Int!\n  firstName: String!\n  lastName: String!\n  age: Int\n  password: String\n  email: String\n  verifiedEmail: Boolean!\n  phoneNumber: String\n  verifiedPhoneNumber: Boolean!\n  profilePhoto: String\n  fullName: String\n  idDriving: Boolean!\n  isRiding: Boolean!\n  isTaken: Boolean!\n  lastLng: Float\n  lastLat: Float\n  lastOrientation: Float\n  createdAt: String!\n  updatedAt: String!\n}\n\ntype Verification {\n  id: Int!\n  target: String!\n  payload: String!\n  key: String!\n  used: Boolean!\n  createdAt: String!\n  updatedAt: String\n}\n"];
+export const typeDefs = ["type Place {\n  id: Int!\n  name: String!\n  lat: Float!\n  log: Float!\n  address: String!\n  isFav: Boolean!\n  createdAt: String!\n  updatedAt: String!\n}\n\ntype Ride {\n  id: Int!\n  status: String!\n  pickUpAddress: String!\n  pickUpLat: Float!\n  pickUplng: Float!\n  dropOffAddress: String!\n  createdAt: String!\n  updatedAt: String!\n}\n\ntype User {\n  id: Int!\n  firstName: String!\n  lastName: String!\n  age: Int\n  password: String\n  email: String\n  verifiedEmail: Boolean!\n  phoneNumber: String\n  verifiedPhoneNumber: Boolean!\n  profilePhoto: String\n  fullName: String\n  idDriving: Boolean!\n  isRiding: Boolean!\n  isTaken: Boolean!\n  lastLng: Float\n  lastLat: Float\n  lastOrientation: Float\n  createdAt: String!\n  updatedAt: String!\n}\n\ntype Query {\n  user: User\n}\n\ntype Verification {\n  id: Int!\n  target: String!\n  payload: String!\n  key: String!\n  used: Boolean!\n  createdAt: String!\n  updatedAt: String\n}\n"];
 /* tslint:disable */
 
 export interface Query {
-  sayBye: string;
-  sayHello: SayHelloResponse;
   user: User | null;
-}
-
-export interface SayHelloQueryArgs {
-  name: string;
-}
-
-export interface SayHelloResponse {
-  text: string;
-  error: boolean;
 }
 
 export interface User {
@@ -42,9 +31,20 @@ export interface Place {
   id: number;
   name: string;
   lat: number;
-  log: number;
+  lng: number;
   address: string;
   isFav: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Ride {
+  id: number;
+  status: string;
+  pickUpAddress: string;
+  pickUpLat: number;
+  pickUplng: number;
+  dropOffAddress: string;
   createdAt: string;
   updatedAt: string;
 }
