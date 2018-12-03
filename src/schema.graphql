@@ -14,10 +14,15 @@ type Ride {
   status: String!
   pickUpAddress: String!
   pickUpLat: Float!
-  pickUplng: Float!
+  pickUpLng: Float!
   dropOffAddress: String!
+  dropOffLat: Float!
+  dropOffLng: Float!
+  price: Float!
+  distance: String!
+  duration: String!
   createdAt: String!
-  updatedAt: String!
+  updatedAt: String
 }
 
 type User {
