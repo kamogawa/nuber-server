@@ -5,7 +5,7 @@ GraphQL, TypeScript, NodeJS
 ## Resolvers
 
 ### Public Resolvers:
-- [ ] Sign In / Sign Up with Facebook
+- [x] Sign In / Sign Up with Facebook
 - [ ] Sign In whit Email
 - [ ] Start Phone Number Verification 
 - [ ] Complete Phone Number Verification
@@ -14,6 +14,8 @@ GraphQL, TypeScript, NodeJS
 ---
 
 ### Private Resolvers:
+- [ ] Generate JWT
+- [ ] Verifiy JWT
 - [ ] Verify Email
 - [ ] Get My Profile
 - [ ] Update My Profile
