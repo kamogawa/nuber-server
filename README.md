@@ -6,7 +6,7 @@ GraphQL, TypeScript, NodeJS
 
 ### Public Resolvers:
 - [x] Sign In / Sign Up with Facebook
-- [ ] Sign In whit Email
+- [x] Sign In whit Email
 - [ ] Start Phone Number Verification 
 - [ ] Complete Phone Number Verification
 - [ ] Sign Up whit Email
