@@ -28,6 +28,7 @@
     "bcrypt": "^3.0.2",
     "class-validator": "^0.9.1",
     "cors": "^2.8.4",
+    "dotenv": "^6.2.0",
     "graphql-tools": "^3.0.4",
     "graphql-yoga": "^1.14.10",
     "helmet": "^3.12.1",
