@@ -13,9 +13,11 @@ GraphQL, TypeScript, NodeJS
 
 ---
 
-### Private Resolvers:
+### Authenticaion:
 - [ ] Generate JWT
 - [ ] Verifiy JWT
+
+### Private Resolvers:
 - [ ] Verify Email
 - [ ] Get My Profile
 - [ ] Update My Profile
