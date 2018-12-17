@@ -1,6 +1,6 @@
-import { Resolvers } from "src/types/resolvers";
-import { EmailSignUpMutationArgs, EmailSignInResponse } from "src/types/graph";
-import User from "src/entities/User";
+import { Resolvers } from "../../../types/resolvers";
+import { EmailSignUpMutationArgs, EmailSignInResponse } from "../../../types/graph";
+import User from "../../../entities/User";
 
 const resolvers: Resolvers = {
     Mutation: {
