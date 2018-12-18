@@ -8,13 +8,13 @@ GraphQL, TypeScript, NodeJS
 - [x] Sign In / Sign Up with Facebook
 - [x] Sign In whit Email
 - [x] Start Phone Number Verification 
-- [ ] Complete Phone Number Verification
-- [ ] Sign Up whit Email
+- [x] Complete Phone Number Verification
+- [x] Sign Up whit Email
 
 ---
 
 ### Authenticaion:
-- [ ] Generate JWT
+- [x] Generate JWT
 - [ ] Verifiy JWT
 
 ### Private Resolvers:
