@@ -40,6 +40,7 @@ import decodeJWT from "./utils/decodeJWT";
         req.user = undefined;
       }
     }
-  }
+    next();
+  };
 }
  export default new App().app;
