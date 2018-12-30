@@ -18,8 +18,8 @@ GraphQL, TypeScript, NodeJS
 - [ ] Verifiy JWT
 
 ### Private Resolvers:
+- [x] Get My Profile
 - [ ] Verify Email
-- [ ] Get My Profile
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
 - [ ] Report Location / Orientation
