@@ -8,7 +8,7 @@ type Mutation {
     EmailSignUp(        
         firstName: String!
         lastName: String!
-        email: String
+        email: String!
         password: String!
         profilePhoto: String!
         age: Int!

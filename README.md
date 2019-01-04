@@ -15,12 +15,12 @@ GraphQL, TypeScript, NodeJS
 
 ### Authenticaion:
 - [x] Generate JWT
-- [ ] Verifiy JWT
+- [x] Verifiy JWT
 
 ### Private Resolvers:
 - [x] Get My Profile
-- [ ] Request Email Verification
-- [ ] Complete Email Verification
+- [x] Request Email Verification
+- [x] Complete Email Verification
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
 - [ ] Report Location / Orientation
