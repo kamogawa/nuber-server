@@ -21,12 +21,13 @@ GraphQL, TypeScript, NodeJS
 - [x] Get My Profile
 - [x] Request Email Verification
 - [x] Complete Email Verification
-- [ ] Update My Profile
-- [ ] Toggle Driving Mode
-- [ ] Report Location / Orientation
-- [ ] Add Place
-- [ ] Edit Place
+- [x] Update My Profile
+- [x] Toggle Driving Mode
+- [x] Report Location / Orientation
+- [x] Add Place
+- [x] Edit Place
 - [ ] Delete Place
+- [ ] Get My Places
 - [ ] See NearBy Driver
 - [ ] Subscribe to NearBy Driver
 - [ ] Request a Ride

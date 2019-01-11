@@ -21,7 +21,7 @@ type User {
     messages: [Message]
     ridesAsPassenger: [Ride]
     ridesAsDriver: [Ride]
-    place: [Place]
+    places: [Place]
     createdAt: String!
     updatedAt: String
 }
