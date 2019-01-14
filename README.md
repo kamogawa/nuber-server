@@ -26,7 +26,7 @@ GraphQL, TypeScript, NodeJS
 - [x] Report Location / Orientation
 - [x] Add Place
 - [x] Edit Place
-- [ ] Delete Place
+- [x] Delete Place
 - [ ] Get My Places
 - [ ] See NearBy Driver
 - [ ] Subscribe to NearBy Driver

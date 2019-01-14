@@ -10,7 +10,7 @@ type User {
     verifiedPhoneNumber: Boolean!
     profilePhoto: String
     fullName: String
-    idDriving: Boolean!
+    isDriving: Boolean!
     isRiding: Boolean!
     isTaken: Boolean!
     lastLng: Float
@@ -24,8 +24,4 @@ type User {
     places: [Place]
     createdAt: String!
     updatedAt: String
-}
-
-type Query {
-    user: User
 }

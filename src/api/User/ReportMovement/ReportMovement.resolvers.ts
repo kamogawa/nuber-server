@@ -2,7 +2,7 @@ import { Resolvers } from "../../../types/resolvers";
 import privateResolver from "../../../utils/privateResolver";
 import { ReportMovementMutationArgs, ReportMovementResponse } from "../../../types/graph";
 import User from "../../../entities/User";
-import cleanNullArgs from "src/utils/cleanNullArgs";
+import cleanNullArgs from "../../../utils/cleanNullArgs";
 
 
 const resolvers: Resolvers = {
