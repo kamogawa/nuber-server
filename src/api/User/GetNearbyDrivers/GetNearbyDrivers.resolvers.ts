@@ -4,9 +4,9 @@ import { GetNearbyDriversResponse } from "../../../types/graph";
 import User from "../../../entities/User";
 import { Between, getRepository } from "typeorm";
 
-const resolvers: Resolvers ={ 
+const resolvers: Resolvers = {
     Query: {
-        GetNearByDrivers: privateResolver(async(_, __, {req}): Promise<GetNearbyDriversResponse> =>{
+        GetNearbyDrivers: privateResolver(async(_, __, {req}): Promise<GetNearbyDriversResponse> => {
             const user: User = req.user;
             const { lastLat, lastLng } = user;
             try {
