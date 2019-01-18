@@ -28,7 +28,8 @@ GraphQL, TypeScript, NodeJS
 - [x] Edit Place
 - [x] Delete Place
 - [x] Get My Places
-- [ ] See NearBy Driver
+- [x] See NearBy Driver
+- [x] Request a Ride
 - [ ] Subscribe to NearBy Driver
 - [ ] Request a Ride
 - [ ] Get NearBy Ride Requests
