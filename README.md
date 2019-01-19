@@ -29,10 +29,9 @@ GraphQL, TypeScript, NodeJS
 - [x] Delete Place
 - [x] Get My Places
 - [x] See NearBy Driver
+- [x] Subscribe to NearBy Driver
 - [x] Request a Ride
-- [ ] Subscribe to NearBy Driver
-- [ ] Request a Ride
-- [ ] Get NearBy Ride Requests
+- [x] Get Nearby Ride Requests
 - [ ] Sebscribe to NearBy Ride Requests
 - [ ] Subscribe to Ride Status
 - [ ] Get Chat Room Messages
