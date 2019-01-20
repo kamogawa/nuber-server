@@ -32,7 +32,9 @@ GraphQL, TypeScript, NodeJS
 - [x] Subscribe to NearBy Driver
 - [x] Request a Ride
 - [x] Get Nearby Ride Requests
-- [ ] Sebscribe to NearBy Ride Requests
+- [x] Sebscribe to NearBy Ride Requests
+- [x] Update Ride Status
+- [ ] Get Ride
 - [ ] Subscribe to Ride Status
 - [ ] Get Chat Room Messages
 - [ ] Subscribe to Chat Room Messages
